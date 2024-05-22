@@ -16,6 +16,10 @@ Run the Angular client from the `client` directory using the command `ng serve`.
 
 The sample docker file builds and runs the web api, opening port 8080. Build the docker image with `docker build -t cheeseria .` (warning, this takes a few minutes), then run this with `docker run -p 8080:8080 cheeseria cheeseria`.
 
+## API documentation
+
+The web api includes sample documentation that can be accessed at `http://localhost:8080/swagger-ui/index.html`. This documentation is automatically generated and has not been customised to reflect the actual implementation.
+
 ## Next steps
 
 Some example next steps for the proof of concept would be:
