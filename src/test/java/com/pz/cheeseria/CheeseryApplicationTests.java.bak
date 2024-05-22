@@ -1,0 +1,13 @@
+package com.pz.cheesery;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class CheeseryApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
